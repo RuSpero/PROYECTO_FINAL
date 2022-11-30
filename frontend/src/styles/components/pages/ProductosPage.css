@@ -1,0 +1,38 @@
+.catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 50px;
+}
+
+.producto img {
+    max-width: 100%;
+    max-height: 100%;
+
+    
+}
+.producto p {
+    font-size: 12px;
+    margin-bottom: 2px;
+    
+}
+.producto {
+    border: 1px solid #333;
+    border-radius: 5px;
+    width: 24%;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    align-items: end;
+}
+
+.holder {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: rgb(49, 47, 36);
+    font-size: large;
+    font-weight: bold;
+}

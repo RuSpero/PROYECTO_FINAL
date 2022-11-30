@@ -1,0 +1,136 @@
+/*
+font-family: 'Edu VIC WA NT Beginner', cursive;
+font-family: 'Open Sans', sans-serif;
+*/
+body {
+  font-family:'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+header {
+  background-color: rgb(0, 0, 0);
+  padding: 16px 0;
+}
+
+header h1 {
+  color: white;
+  font-size: 40px;
+  font-weight: 100;
+  font-style: italic;
+  font-family: 'Caveat', cursive;
+  display: inline-block;
+  position: relative;
+  bottom: 10px;
+  top: 10px;
+  margin-left: 10px;
+}
+
+nav {
+  background-color: #B68D40;
+  margin-bottom: 10px;
+  font-family:'Open Sans', sans-serif;
+  font-size: 12px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  flex-grow: 1;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 3px 6px;
+  display: block;
+  text-align: center;
+}
+
+nav ul li a:hover {
+  background-color: #122620;
+}
+
+.holder {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+h2 {
+  color: rgb(49, 47, 36);
+  font-size: large;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #B68D40;
+  clear:both;
+  text-align: center;
+  padding: 5px 0;
+  margin-top: 20px;
+}
+footer p{
+  font-size: small;
+  color: #333;
+}
+
+nav ul li a.activo {
+  background-color: #D6AD60;
+}
+
+#logo {
+  border-radius: 10%;
+  max-width: 100%;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+/*inicio home*/
+.bienvenidos {
+  width: 75%;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+
+.testimonios {
+  width: 25%;
+}
+
+.columnas {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bienvenidos p {
+  font-size: 15px;
+}
+
+.testimonio {
+  background-color: #B68D40;
+  padding: 16px;
+}
+
+.testimonio .cita {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 22px;
+  display: block;
+}
+
+.testimonio .autor {
+  font-size: 10px;
+  text-align: center;
+  display: block;
+  margin: 12px 0;
+}
+
+.imagenInicio img {
+  border-radius: 13px;
+  display: flex;
+  max-width: 400px;
+}
+/*fin home*/

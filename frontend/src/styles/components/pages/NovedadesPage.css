@@ -1,0 +1,10 @@
+.holder {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: rgb(49, 47, 36);
+    font-size: large;
+    font-weight: bold;
+}
